@@ -11,10 +11,7 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-  
-    var $buythemediv = '<div class="buy-theme alt-font xs-display-none"><a href="http://themeforest.net/item/brando-responsive-multipurpose-onepage-template/13486658?ref=themezaa" target="_blank"><span>Purchase Theme</span></a></div><div class="quick-question alt-font xs-display-none"><a href="index.html"><span>All Templates</span></a></div>';
-    $('body').append($buythemediv);
-    
+
     //Disable mouse scroll wheel zoom on embedded Google Maps
     $('.maps').click(function () {
         $('.maps iframe').css("pointer-events", "auto");
@@ -165,7 +162,7 @@ $(document).ready(function () {
 /*==============================================================
     set parallax
  ==============================================================*/
-    
+
     SetParallax();
 
     $('.parallax-fix').each(function () {
@@ -262,7 +259,7 @@ $(document).ready(function () {
 /*==============================================================
     zoom gallery
 ==============================================================*/
-    
+
     $('.zoom-gallery').magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -326,7 +323,7 @@ $(document).ready(function () {
 /*==============================================================
     ajax magnific popup for onepage portfolio
 ==============================================================*/
-    
+
     $('.ajax-popup').magnificPopup({
         type: 'ajax',
         alignTop: true,
@@ -390,7 +387,7 @@ $(document).ready(function () {
 /*==============================================================
     form to email
 ==============================================================*/
-    
+
     $("#success").hide();
     $("#success-contact").hide();
     //restaurant contact form
@@ -975,7 +972,7 @@ $(document).ready(function () {
     }
 
 
-    
+
 
 
     //end ready
@@ -1074,7 +1071,7 @@ $('.work-details-popup').on('click', function () {
         type: 'inline',
         fixedContentPos: true,
         closeOnContentClick: true,
-        
+
     });
 
 });
